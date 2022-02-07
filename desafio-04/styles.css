@@ -1,45 +1,35 @@
-
-img {
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
 h1 {
-    margin-left: 20px;
-    
+  text-decoration: underline;
+  margin-left: 20px;
 }
 
 .modas {
-    border-style: double; width: 332px;
-   
+  width: 332px;
 }
 
 .modas th {
-    font-size: 30px;
-    background-color: #bb86fc;
-    padding: 5px;
-    
+  font-size: 30px;
+  background-color: #bb86fc;
+  padding: 5px;
 }
 .modas td {
-    background-color: #424250;
-    padding: 5px;
-    color: white;
+  background-color: #424250;
+  padding: 5px;
+  color: white;
 }
 
-
 .casa {
-    border-style: double; width: 203px;
+  width: 203px;
 }
 
 .casa th {
-    font-size: 30px;
-    background-color: #00c4b4;
-    padding: 5px;
-   
+  font-size: 30px;
+  background-color: #00c4b4;
+  padding: 5px;
 }
 
 .casa td {
-    background-color: #424250;
-    padding: 5px;
-    color: white;
+  background-color: #424250;
+  padding: 5px;
+  color: white;
 }
