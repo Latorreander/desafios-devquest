@@ -1,10 +1,10 @@
-.paragrafos .P1 {
+.paragrafos .Paragrafo-padrao {
   background-color: #f5f5f5;
   padding: 20px;
   margin: 40px;
 }
 
-.paragrafos .P2 {
+.paragrafos .Paragrafo-destacado {
   background-color: #f0cce2;
   padding: 20px;
   margin: 40px;
