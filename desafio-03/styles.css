@@ -1,16 +1,11 @@
-
-
-
-
-.paragrafo-01 {
-    background-color: #f5f5f5;
-    padding: 20px;
-    margin: 40px;
+.paragrafos .P1 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 40px;
 }
 
- .paragrafo-02 {
-    background-color: #f0cce2;
-    padding: 20px;
-    margin: 40px;
+.paragrafos .P2 {
+  background-color: #f0cce2;
+  padding: 20px;
+  margin: 40px;
 }
-
