@@ -1,0 +1,151 @@
+body {
+    display: grid;
+    grid-template-areas: "container-cabecalho"
+    "conteudo-principal"
+    "container-rodape";
+}
+
+.container-cabecalho{
+    background-color:  hsl(217, 28%, 15%);
+    grid-area: container-cabecalho;
+    padding: 50px 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-cabecalho nav ul{
+    display: flex;
+}
+
+.container-cabecalho  nav ul a{
+    margin-left: 70px;
+}
+
+.conteudo-principal{
+    background-color:  hsl(217, 28%, 15%);
+    grid-area: conteudo-principal;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: (5, auto);
+}
+
+
+.imagem-principal{
+    grid-area: 1 / 1 / 1 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.imagem-principal .descricao .titulo{
+    width: 750px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.imagem-principal .descricao .texto{
+    margin: 20px auto;
+    width: 480px;
+    font-size: 16px;
+}
+
+
+.imagem-principal .botao{
+    padding: 20px;
+}
+
+.imagem-principal .botao a{
+    background-color:  hsl(198, 60%, 50%);
+    padding: 10px 70px;
+    border-radius: 50px;
+    
+}
+
+.vantagens{
+    background-color:  hsl(218, 28%, 13%);
+    grid-area: 2 / 1 / 2 / 4;
+    display: grid;
+    grid-template-areas: "icone1 icone2"
+    "icone3 icone4";
+    padding: 130px;
+    align-items: center;
+}
+
+.vantagens .icone1, .icone2,
+.icone3, .icone4{
+    text-align: center;
+    margin: 10px 90px;
+    padding: 45px;
+    
+}
+
+.vantagens .icone1{
+    grid-area: icone1;
+    
+}
+
+.vantagens .icone2{
+    grid-area: icone2;
+    
+}
+
+.vantagens .icone3{
+    grid-area: icone3;
+    
+}
+
+.vantagens .icone4{
+    grid-area: icone4;
+    
+}
+
+.vantagens .titulo{
+    margin: 13px 0 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.vantagens span{
+    font-size: 16px;
+}
+
+.imagem-secundaria{
+    background-color:  hsl(218, 28%, 13%);
+    grid-area: 3 / 1 / 3 / 4;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    justify-content: center;
+}
+
+.imagem-secundaria .titulo{
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px;
+    width: 400px;
+}
+
+.imagem-secundaria .descricao{
+    padding: 60px;
+    font-size: 16px;
+    width: 700px;
+}
+
+.feedback{
+    background-color:  hsl(218, 28%, 13%);
+    grid-area: 4 / 1 / 4 / 3;
+}
+
+.email{
+    background-color: hsl(217, 28%, 15%);
+    grid-row-start: 5 / 1 / 5 / 4;
+}
+
+.container-rodape{
+    background-color:  hsl(216, 53%, 9%);
+    grid-area: container-rodape;
+
+}

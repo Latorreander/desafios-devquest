@@ -1,0 +1,12 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+a{
+    color: hsl(0, 0%, 100%);
+}
+
+.container-cabecalho{
+    font-family: 'Raleway', sans-serif;
+}
