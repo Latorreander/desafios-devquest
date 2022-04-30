@@ -1,151 +1,261 @@
-body {
-    display: grid;
-    grid-template-areas: "container-cabecalho"
-    "conteudo-principal"
-    "container-rodape";
+.container-cabecalho {
+  background-color: hsl(217, 28%, 15%);
+  display: flex;
+  padding: 30px 40px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container-cabecalho{
-    background-color:  hsl(217, 28%, 15%);
-    grid-area: container-cabecalho;
-    padding: 50px 65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container-cabecalho .menu ul {
+  display: flex;
 }
 
-.container-cabecalho nav ul{
-    display: flex;
+.container-cabecalho .menu a {
+  margin-left: 40px;
 }
 
-.container-cabecalho  nav ul a{
-    margin-left: 70px;
+.conteudo-principal {
+  background-color: hsl(218, 28%, 13%);
+  position: relative;
 }
 
-.conteudo-principal{
-    background-color:  hsl(217, 28%, 15%);
-    grid-area: conteudo-principal;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: (5, auto);
+.imagem-principal {
+  background: hsl(217, 28%, 15%) ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
-
-.imagem-principal{
-    grid-area: 1 / 1 / 1 / 4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.imagem-principal .descricao .titulo {
+  max-width: 650px;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto;
 }
 
-
-.imagem-principal .descricao .titulo{
-    width: 750px;
-    font-size: 40px;
-    font-weight: 700;
+.imagem-principal .descricao .texto {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 550px;
+  margin: 40px auto;
 }
 
-.imagem-principal .descricao .texto{
-    margin: 20px auto;
-    width: 480px;
-    font-size: 16px;
+.imagem-principal .botao a {
+  font-size: 16px;
+  background-color: hsl(176, 68%, 64%);
+  padding: 15px 80px;
+  border-radius: 30px;
 }
 
-
-.imagem-principal .botao{
-    padding: 20px;
+.imagem-principal .botao a:hover{
+    background-color: hsl(198, 60%, 50%);
+    transition: 0.3s;
 }
 
-.imagem-principal .botao a{
-    background-color:  hsl(198, 60%, 50%);
-    padding: 10px 70px;
-    border-radius: 50px;
-    
-}
-
-.vantagens{
-    background-color:  hsl(218, 28%, 13%);
-    grid-area: 2 / 1 / 2 / 4;
-    display: grid;
-    grid-template-areas: "icone1 icone2"
+.vantagens {
+  display: grid;
+  grid-template-areas:
+    "icone1 icone2"
     "icone3 icone4";
-    padding: 130px;
-    align-items: center;
+  text-align: center;
+  row-gap: 90px;
+  margin-top: 90px;
+  padding: 100px 100px;
 }
 
-.vantagens .icone1, .icone2,
-.icone3, .icone4{
-    text-align: center;
-    margin: 10px 90px;
-    padding: 45px;
-    
+.vantagens .icone1,
+.icone2,
+.icone3,
+.icone4 {
+  max-width: 390px;
+  margin: 0 auto;
 }
 
-.vantagens .icone1{
-    grid-area: icone1;
-    
+.imagem-secundaria {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 180px 100px;
+  gap: 80px;
 }
 
-.vantagens .icone2{
-    grid-area: icone2;
-    
+.imagem-secundaria .descricao {
+  max-width: 520px;
 }
 
-.vantagens .icone3{
-    grid-area: icone3;
-    
+.imagem-secundaria .descricao .titulo {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.vantagens .icone4{
-    grid-area: icone4;
-    
+.imagem-secundaria .descricao .texto {
+  font-size: 16px;
 }
 
-.vantagens .titulo{
-    margin: 13px 0 10px;
-    font-weight: 700;
-    font-size: 18px;
+.feedback {
+  display: grid;
+  grid-template-areas: "comentario comentario  comentario";
+  padding: 80px 120px 300px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
 }
 
-.vantagens span{
+.feedback .usuario {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  line-height: 18px;
+}
+
+.feedback .foto-usuario {
+  border-radius: 20px;
+  max-width: 30px;
+  margin-right: 10px;
+}
+
+.feedback .usuario .nome {
+  font-weight: 700;
+}
+
+.feedback .usuario .cargo {
+  font-size: 10px;
+}
+
+.quote {
+  position: absolute;
+  left: -40px;
+  top: -30px;
+}
+
+.feedback .comentario {
+  background-color: hsl(219, 30%, 18%);
+  width: 360px;
+  padding: 30px;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: hsl(217, 28%, 15%) 5px 5px, hsl(217, 28%, 15%) 10px 10px,
+    hsl(217, 28%, 15%) 15px 15px;
+}
+
+.email {
+  background-color: hsl(217, 28%, 15%);
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  position: absolute;
+  right: 50px;
+  left: 50px;
+  bottom: -100px;
+  box-shadow: hsl(217, 28%, 15%) 5px 5px, hsl(217, 28%, 15%) 10px 10px;
+}
+
+.email .texto {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.email .texto .titulo {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.email .input-e-botao {
+  padding: 20px 10px;
+}
+
+.email .input-e-botao a {
+  background-color: hsl(176, 68%, 64%);
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+.email .input-e-botao a:hover {
+  background-color: hsl(198, 60%, 50%);
+  transition: 0.3s;
+}
+
+.email .input-e-botao input {
+  border-radius: 20px;
+  padding: 10px;
+  width: 65%;
+}
+
+.container-rodape {
+  background-color: hsl(216, 53%, 9%);
+  padding: 180px 180px;
+  display: grid;
+  grid-template-areas:
+    "logo logo logo logo logo"
+    "localizacao contato sobre-nos contate-nos social";
+    justify-content: space-between;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.localizacao {
+  grid-area: localizacao;
+  display: flex;
+}
+
+.contato {
+  grid-area: contato;
+}
+
+.sobre-nos {
+  grid-area: sobre-nos;
+}
+
+.contate-nos {
+  grid-area: contate-nos;
+}
+
+.social {
+  grid-area: social;
+  display: flex;
+  gap: 10px;
+}
+
+.social i {
+  border: solid 1px;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.container-rodape .logo{
+    margin-bottom: 30px;
+}
+
+.container-rodape .localizacao {
     font-size: 16px;
+    max-width: 370px;
+    line-height: 22px;
 }
 
-.imagem-secundaria{
-    background-color:  hsl(218, 28%, 13%);
-    grid-area: 3 / 1 / 3 / 4;
-    display: flex;
-    align-items: center;
-    padding: 50px;
-    justify-content: center;
+.container-rodape .localizacao .marcador{
+    margin-right: 25px;
 }
 
-.imagem-secundaria .titulo{
-    font-weight: 700;
-    font-size: 40px;
-    margin: 20px;
-    width: 400px;
+.container-rodape .contato{
+    line-height: 40px;
 }
 
-.imagem-secundaria .descricao{
-    padding: 60px;
-    font-size: 16px;
-    width: 700px;
+.container-rodape .sobre-nos {
+    line-height: 40px;
 }
 
-.feedback{
-    background-color:  hsl(218, 28%, 13%);
-    grid-area: 4 / 1 / 4 / 3;
+.container-rodape .contate-nos {
+    line-height: 40px;
 }
 
-.email{
-    background-color: hsl(217, 28%, 15%);
-    grid-row-start: 5 / 1 / 5 / 4;
-}
-
-.container-rodape{
-    background-color:  hsl(216, 53%, 9%);
-    grid-area: container-rodape;
-
+.container-rodape .social{
+    margin-top: 5px;
 }
