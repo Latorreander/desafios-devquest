@@ -14,17 +14,25 @@
   margin-left: 40px;
 }
 
+.container-cabecalho .menu a:hover{
+  border-bottom: solid 1px;
+ 
+}
+
 .conteudo-principal {
   background-color: hsl(218, 28%, 13%);
-  position: relative;
 }
 
 .imagem-principal {
-  background: hsl(217, 28%, 15%) ;
+  background: hsl(217, 28%, 15%);
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+}
+
+.imagem-principal img{
+    max-width: 100%;
 }
 
 .imagem-principal .descricao .titulo {
@@ -38,7 +46,7 @@
   font-size: 18px;
   margin-bottom: 30px;
   max-width: 550px;
-  margin: 40px auto;
+  margin: 40px 
 }
 
 .imagem-principal .botao a {
@@ -48,9 +56,9 @@
   border-radius: 30px;
 }
 
-.imagem-principal .botao a:hover{
-    background-color: hsl(198, 60%, 50%);
-    transition: 0.3s;
+.imagem-principal .botao a:hover {
+  background-color: hsl(198, 60%, 50%);
+  transition: 0.3s;
 }
 
 .vantagens {
@@ -62,6 +70,17 @@
   row-gap: 90px;
   margin-top: 90px;
   padding: 100px 100px;
+  align-items: center;
+}
+
+.vantagens .titulo{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.vantagens img{
+  margin-bottom: 5px;
 }
 
 .vantagens .icone1,
@@ -80,11 +99,16 @@
   gap: 80px;
 }
 
+.imagem-secundaria img{
+    max-width: 100%;
+}
+
 .imagem-secundaria .descricao {
   max-width: 520px;
 }
 
 .imagem-secundaria .descricao .titulo {
+  width: 250px;
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -94,6 +118,20 @@
   font-size: 16px;
 }
 
+.imagem-secundaria .descricao .link  {
+  margin-top: 20px;
+}
+
+.imagem-secundaria .descricao .link a {
+  color: darkcyan;
+  border-bottom: solid 1px;
+}
+
+.imagem-secundaria .descricao .link a:hover {
+  transition: 0.3s;
+  color: hsl(0, 0%, 100%);
+}
+
 .feedback {
   display: grid;
   grid-template-areas: "comentario comentario  comentario";
@@ -101,6 +139,7 @@
   display: flex;
   column-gap: 10px;
   justify-content: center;
+  position: relative;
 }
 
 .feedback .usuario {
@@ -126,18 +165,20 @@
 
 .quote {
   position: absolute;
-  left: -40px;
-  top: -30px;
+  left: 135px;
+  top: 45px;
 }
 
 .feedback .comentario {
   background-color: hsl(219, 30%, 18%);
   width: 360px;
+  line-height: 20px;
   padding: 30px;
   margin: 0 auto;
+  border-radius: 5px;
   position: relative;
-  box-shadow: hsl(217, 28%, 15%) 5px 5px, hsl(217, 28%, 15%) 10px 10px,
-    hsl(217, 28%, 15%) 15px 15px;
+  box-shadow: hsl(217, 28%, 15%) 5px 5px, hsl(217, 28%, 15%) 10px 10px;
+   
 }
 
 .email {
@@ -170,14 +211,14 @@
 }
 
 .email .input-e-botao a {
-  background-color: hsl(176, 68%, 64%);
+  background-color: hsl(198, 60%, 50%);
   padding: 10px 30px;
   border-radius: 20px;
   margin-left: 20px;
 }
 
 .email .input-e-botao a:hover {
-  background-color: hsl(198, 60%, 50%);
+  background-color: hsl(176, 68%, 64%);
   transition: 0.3s;
 }
 
@@ -194,7 +235,7 @@
   grid-template-areas:
     "logo logo logo logo logo"
     "localizacao contato sobre-nos contate-nos social";
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .logo {
@@ -230,32 +271,37 @@
   border-radius: 100%;
 }
 
-.container-rodape .logo{
-    margin-bottom: 30px;
+.container-rodape .logo {
+  margin-bottom: 30px;
 }
 
 .container-rodape .localizacao {
-    font-size: 16px;
-    max-width: 370px;
-    line-height: 22px;
+  font-size: 16px;
+  max-width: 370px;
+  line-height: 22px;
 }
 
-.container-rodape .localizacao .marcador{
-    margin-right: 25px;
+.container-rodape .localizacao .marcador {
+  margin-right: 25px;
 }
 
-.container-rodape .contato{
-    line-height: 40px;
+.container-rodape .contato {
+  line-height: 40px;
+}
+
+.container-rodape .contato img{
+  margin-right: 18px;
+
 }
 
 .container-rodape .sobre-nos {
-    line-height: 40px;
+  line-height: 40px;
 }
 
 .container-rodape .contate-nos {
-    line-height: 40px;
+  line-height: 40px;
 }
 
-.container-rodape .social{
-    margin-top: 5px;
+.container-rodape .social {
+  margin-top: 5px;
 }

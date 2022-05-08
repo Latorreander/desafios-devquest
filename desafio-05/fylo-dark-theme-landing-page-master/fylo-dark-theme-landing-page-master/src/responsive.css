@@ -1,0 +1,90 @@
+@media (max-width: 376px){
+ 
+
+    .container-cabecalho{
+        padding: 18px;
+    }
+
+    .container-cabecalho .menu a {
+        font-size: 12px;
+    }
+
+    .container-cabecalho .menu ul a {
+        margin-left: 20px;
+        
+    }
+
+    .container-cabecalho .logo img{
+        width: 80px;
+    }
+    .conteudo-principal .imagem-principal img{
+        padding: 0 30px;
+        
+    }
+    .vantagens{
+        display: grid;
+        grid-template-areas: 'icone1'
+                             'icone2'
+                             'icone3'
+                             'icone4';
+    padding: 15px;
+    }
+
+    .conteudo-principal .descricao .titulo{
+        padding: 0 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .conteudo-principal .descricao .texto{
+        font-size: 13px;
+        margin-top: 20px;
+        
+    }
+
+    .vantagens {
+        padding: 0 35px;
+    }
+
+    .imagem-secundaria{
+        flex-direction: column;
+        padding: 150px  30px;
+        gap: 40px;
+    }
+
+    .imagem-secundaria .descricao .titulo{
+        min-width: 100%;
+        font-size: 16px;
+       padding: 0 25px;
+        text-align: start;
+    }
+
+    .imagem-secundaria .descricao .texto {
+        padding: 0 10px;
+    }
+
+    .imagem-secundaria .descricao .link{
+        padding: 0 10px;
+    }
+
+    .feedback {
+        display: grid;
+        grid-template-areas: 'comentario'
+                            'comentario'
+                            'comentario';
+        row-gap: 40px;
+    }
+
+    .feedback .comentario{
+        width: 300px;
+        font-size: 11px;
+        padding: 20px;
+    }
+
+    .quote{
+        left: 50px;
+        top: 52px;
+        width: 40px;
+
+    }
+}
