@@ -228,7 +228,7 @@
 
 .container-rodape {
   background-color: hsl(216, 53%, 9%);
-  padding: 180px 180px;
+  padding: 180px 120px 120px;
   display: grid;
   grid-template-areas:
     "logo logo logo logo logo"
@@ -270,7 +270,7 @@
 }
 
 .container-rodape .logo {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .container-rodape .localizacao {
@@ -293,6 +293,7 @@
 
 .container-rodape .sobre-nos {
   line-height: 40px;
+  margin-left: 60px;
 }
 
 .container-rodape .contate-nos {
@@ -309,6 +310,11 @@
 
 .container-rodape .social {
   margin-top: 5px;
+  text-align: center; 
+}
+
+.container-rodape .social .fa-brands.fa-facebook-f, .fab.fa-twitter, .fab.fa-instagram{
+  width: 27px;
 }
 
 .container-rodape .social a:hover{

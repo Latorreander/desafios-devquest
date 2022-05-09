@@ -136,6 +136,7 @@
 
   .container-rodape .sobre-nos {
     margin-bottom: 35px;
+    margin-left: 0;
   }
 
   .container-rodape .contate-nos {
@@ -144,5 +145,6 @@
 
   .container-rodape .social {
     justify-content: center;
+    align-items: center;
   }
 }
