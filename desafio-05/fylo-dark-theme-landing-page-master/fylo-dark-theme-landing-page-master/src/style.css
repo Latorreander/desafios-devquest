@@ -14,9 +14,8 @@
   margin-left: 40px;
 }
 
-.container-cabecalho .menu a:hover{
+.container-cabecalho .menu a:hover {
   border-bottom: solid 1px;
- 
 }
 
 .conteudo-principal {
@@ -24,15 +23,15 @@
 }
 
 .imagem-principal {
-  background: hsl(217, 28%, 15%);
+  background: hsl(217, 28%, 15%) url('../images/bg-curvy-desktop.svg') bottom no-repeat ; 
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
 }
 
-.imagem-principal img{
-    max-width: 100%;
+.imagem-principal img {
+  max-width: 100%;
 }
 
 .imagem-principal .descricao .titulo {
@@ -46,7 +45,7 @@
   font-size: 18px;
   margin-bottom: 30px;
   max-width: 550px;
-  margin: 40px 
+  margin: 40px;
 }
 
 .imagem-principal .botao a {
@@ -73,13 +72,13 @@
   align-items: center;
 }
 
-.vantagens .titulo{
+.vantagens .titulo {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.vantagens img{
+.vantagens img {
   margin-bottom: 5px;
 }
 
@@ -99,8 +98,8 @@
   gap: 80px;
 }
 
-.imagem-secundaria img{
-    max-width: 100%;
+.imagem-secundaria img {
+  max-width: 100%;
 }
 
 .imagem-secundaria .descricao {
@@ -118,7 +117,7 @@
   font-size: 16px;
 }
 
-.imagem-secundaria .descricao .link  {
+.imagem-secundaria .descricao .link {
   margin-top: 20px;
 }
 
@@ -178,7 +177,6 @@
   border-radius: 5px;
   position: relative;
   box-shadow: hsl(217, 28%, 15%) 5px 5px, hsl(217, 28%, 15%) 10px 10px;
-   
 }
 
 .email {
@@ -192,7 +190,7 @@
   right: 50px;
   left: 50px;
   bottom: -100px;
-  box-shadow: hsl(217, 28%, 15%) 5px 5px; 
+  box-shadow: hsl(217, 28%, 15%) 5px 5px;
 }
 
 .email .texto {
@@ -269,7 +267,6 @@
   border: solid 1px;
   padding: 5px;
   border-radius: 100%;
-  
 }
 
 .container-rodape .logo {
@@ -290,9 +287,8 @@
   line-height: 40px;
 }
 
-.container-rodape .contato img{
+.container-rodape .contato img {
   margin-right: 18px;
-
 }
 
 .container-rodape .sobre-nos {

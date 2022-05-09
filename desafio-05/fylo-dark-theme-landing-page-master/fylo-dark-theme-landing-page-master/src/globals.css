@@ -1,22 +1,22 @@
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: hsl(0, 0%, 100%);
-    
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  max-width: 1440px;
 }
 
-a{
-    color: hsl(0, 0%, 100%);
+a {
+  color: hsl(0, 0%, 100%);
 }
 
-.container-cabecalho{
-    font-family: 'Raleway', sans-serif;
+.container-cabecalho {
+  font-family: "Raleway", sans-serif;
 }
 
-.imagem-principal .titulo{
-    font-family: 'Raleway', sans-serif;
+.imagem-principal .titulo {
+  font-family: "Raleway", sans-serif;
 }
 
-.imagem-secundaria .titulo{
-    font-family: 'Raleway', sans-serif;
+.imagem-secundaria .titulo {
+  font-family: "Raleway", sans-serif;
 }
