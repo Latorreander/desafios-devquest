@@ -27,10 +27,6 @@
     padding: 15px;
   }
 
-  .imagem-principal {
-    background: url("../images/bg-curvy-mobile.svg") bottom no-repeat;
-  }
-
   .conteudo-principal .descricao .titulo {
     padding: 0 30px;
     font-size: 24px;
