@@ -186,12 +186,13 @@
   align-items: center;
   text-align: center;
   width: 800px;
+  position: relative;
   margin: 0 auto;
   padding: 30px 40px;
   right: 50px;
   left: 50px;
   bottom: -100px;
-  box-shadow: hsl(217, 28%, 15%) 5px 5px, hsl(217, 28%, 15%) 10px 10px;
+  box-shadow: hsl(217, 28%, 15%) 5px 5px; 
 }
 
 .email .texto {
@@ -268,6 +269,7 @@
   border: solid 1px;
   padding: 5px;
   border-radius: 100%;
+  
 }
 
 .container-rodape .logo {

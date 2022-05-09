@@ -73,6 +73,7 @@
                             'comentario'
                             'comentario';
         row-gap: 40px;
+        padding: 80px 0px 80px;
     }
 
     .feedback .comentario{
@@ -85,6 +86,68 @@
         left: 50px;
         top: 52px;
         width: 40px;
-
     }
+
+    .email {
+        width: 300px;
+        padding: 50px 20px 20px;
+        border-radius: 5px;
+        left: 0;
+        right: 0;
+        bottom:-200px;
+        
+    }
+
+    .email .texto .titulo{
+        font-size: 20px;
+    }
+
+    .email .input-e-botao  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;  
+    }
+
+    .email .input-e-botao #email{
+        width: 290px;
+        padding: 15px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+
+    .email .input-e-botao a{
+        margin-left: 0; 
+        width: 290px;
+        margin-top: 30px;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    .container-rodape {
+        display: grid;
+        grid-template-areas: 'logo'
+                            'localizacao'
+                            'contato'
+                            'sobre-nos'
+                            'contate-nos'
+                            'social';
+        padding: 270px 40px 70px;
+    }
+
+    .container-rodape .contato{
+        margin: 10px 0 60px;
+    }
+
+    .container-rodape .sobre-nos{
+        margin-bottom: 35px;
+    }
+
+    .container-rodape .contate-nos{
+        margin-bottom: 60px;
+    }
+
+    .container-rodape .social{
+        justify-content: center;
+    }
+
+
 }
