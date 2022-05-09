@@ -299,6 +299,19 @@
   line-height: 40px;
 }
 
+.container-rodape .contate-nos a:hover{
+  font-weight: 700;
+}
+
+.container-rodape .sobre-nos a:hover{
+  font-weight: 700;
+}
+
 .container-rodape .social {
   margin-top: 5px;
+}
+
+.container-rodape .social a:hover{
+  color: darkcyan;
+  transition: 0.3s;
 }
