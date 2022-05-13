@@ -8,7 +8,7 @@ function somar(numero1, numero2) {
 somar(3, 5);
 let resultado1 = somar(3, 5);
 console.log(resultado1);
-//-------------------------------------------------
+//------------------------------------------------
 
 //---SUBTRAÇÃO---
 
