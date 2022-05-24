@@ -20,11 +20,11 @@
 
 .conteudo-principal {
   background-color: hsl(218, 28%, 13%);
-  
+
 }
 
 .imagem-principal {
-  background: hsl(217, 28%, 15%);
+  background: hsl(217, 28%, 15%) url('../images/bg-curvy-desktop.svg')bottom no-repeat;
   display: flex;
   flex-direction: column;
   text-align: center;
