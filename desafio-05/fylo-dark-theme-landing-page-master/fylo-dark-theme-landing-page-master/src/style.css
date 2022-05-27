@@ -1,0 +1,63 @@
+.container-cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul  a{
+    margin-left: 30px;
+}
+
+.conteudo-principal .ilustracao-da-intro{
+   text-align: center;
+}
+
+.conteudo-principal .descricao{
+    margin: 0 auto;
+    width: 600px;
+}
+
+.conteudo-principal .botao{
+    width: 73px;
+    margin: 0 auto;
+}
+
+.conteudo-principal .vantagens{
+    display: grid;
+    grid-template-areas: "icone1 icone2"
+                         "icone3 icone4";
+    text-align: center;
+    align-items: center;
+}
+
+.imagem-secundaria{
+    display: flex;
+    align-items: center; 
+}
+
+.imagem-secundaria .mantenha-se-produtivo{
+    margin: 0 auto;
+}
+
+.imagem-secundaria .descricao{
+    width: 500px;
+}
+
+.feedback{
+    display: flex;
+    position: relative; 
+}
+
+.feedback .comentario{
+    width: 500px;
+}
+
+.aspas{
+    position: absolute;
+}
+
+
+

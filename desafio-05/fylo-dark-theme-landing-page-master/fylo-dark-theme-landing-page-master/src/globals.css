@@ -1,1 +1,33 @@
 
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+h2, p, a, li, span{
+    color: hsl(0, 0%, 100%);
+}
+
+
+main{
+    background-color:   hsl(217, 28%, 15%)
+} 
+
+.container-cabecalho{
+    background-color: hsl(217, 28%, 15%);
+}
+
+.rodape{
+    background-color:  hsl(216, 53%, 9%);
+}
+
+.comentario{
+    background-color: hsl(219, 30%, 18%);
+}
+
+
+.background{
+    height: 449px;
+    background: url('../images/bg-curvy-desktop.svg')  no-repeat;
+   
+}
