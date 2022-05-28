@@ -20,19 +20,19 @@
    text-align: center;
 }
 
-.conteudo-principal .descricao{
+.conteudo-principal .descricao1{
     text-align: center;
     margin: 0 auto;
     width: 680px;
     margin-top: 60px;
 }
 
-.conteudo-principal .descricao h2{
+.conteudo-principal .descricao1 h2{
     font-size: 40px;
     margin-bottom: 50px;
 }
 
-.conteudo-principal .descricao .texto{
+.conteudo-principal .descricao1 .texto{
     font-size: 22px;
     margin-bottom: 60px;
 }
@@ -44,15 +44,10 @@
     font-size: 22px;
 }
 
-.background{
-    height: 449px;
-    background: url('../images/bg-curvy-desktop.svg') no-repeat; 
-}
-
 .conteudo-principal .vantagens{
     padding-top: 220px;
     row-gap: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 120px;
     background-color: hsl(218, 28%, 13%);
     display: grid;
     grid-template-areas: "icone1 icone2"
@@ -63,11 +58,16 @@
 }
 
 .vantagens img{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .vantagens .subtitulo{
     margin-bottom: 8px;
+}
+
+.vantagens p{
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .icone1, .icone2, 
@@ -78,19 +78,37 @@
 .imagem-secundaria{
     background-color: hsl(218, 28%, 13%);
     display: flex;
-    align-items: center; 
-}
+    align-items: center;
+    padding-bottom: 200px;
+} 
 
 .imagem-secundaria .mantenha-se-produtivo{
     margin: 0 auto;
 }
 
-.imagem-secundaria .descricao{
-    width: 500px;
+.imagem-secundaria .descricao2 {
+    width: 520px;
+    margin: 0 auto;
 }
 
-.link{
-    font-family: 'Open Sans', sans-serif;
+.imagem-secundaria .descricao2 h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.imagem-secundaria .descricao2 p{
+    font-size: 14px;
+}
+
+.imagem-secundaria .descricao2 .link{
+    margin-top: 20px;
+      
+}
+
+.imagem-secundaria .descricao2 .link a{
+    padding: 5px;
+    color: cadetblue;
+    border-bottom: solid 1px;
 }
 
 .feedback{
@@ -106,6 +124,10 @@
     position: relative;
 }
 
+.feedback .comentario p{
+    margin-bottom: 20px;
+}
+
 .aspas{
     position: absolute;
     left: -40px;
@@ -114,6 +136,15 @@
 
 .feedback .usuario{
     display: flex;
+    gap: 10px;
+}
+
+.feedback .usuario ul li{
+   line-height: 22px;
+}
+
+.feedback .usuario .cargo{
+    font-size: 12px;
 }
 
 .feedback .comentario .usuario .foto-usuario{
@@ -122,10 +153,44 @@
 }
 
 .email{
+    position: relative;
+    background-color: hsl(217, 28%, 15%);;
     text-align: center;
+    width: 900px;
+    margin: 300px auto;
+    padding: 30px 60px; 
+    margin-bottom: -120px;
+}
+
+.email .texto h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.email .texto p{
+    max-width: 780px;
+}
+
+.email input{
+    padding: 15px;
+    border-radius: 30px;
+    width: 500px; 
+}
+
+.email .input{
+    padding: 20px;
+}
+
+.email button{
+    background-image: linear-gradient(to left, hsl(198, 60%, 50%) ,hsl(176, 68%, 64%));
+    padding: 15px;
+    border-radius: 30px;
+    width: 200px;
+    margin-left: 20px;
 }
 
 .rodape{
+    padding: 190px 100px;
     display: grid;
     grid-template-areas: "logo logo logo logo logo"
                         "localizacao contato sobre-nos contate-nos social";
