@@ -4,13 +4,21 @@
     margin: 0 auto;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
 h2, p, a, li, span{
     color: hsl(0, 0%, 100%);
 }
 
-
 main{
-    background-color:   hsl(217, 28%, 15%)
+    background-color:   hsl(217, 28%, 15%);
+    
 } 
 
 .container-cabecalho{
@@ -26,8 +34,3 @@ main{
 }
 
 
-.background{
-    height: 449px;
-    background: url('../images/bg-curvy-desktop.svg')  no-repeat;
-   
-}

@@ -1,6 +1,7 @@
 .container-cabecalho{
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 
 .menu ul{
@@ -11,29 +12,71 @@
     margin-left: 30px;
 }
 
+.conteudo-principal .imagem-principal{
+    background: url(../images/bg-curvy-desktop.svg) bottom no-repeat;
+}
+
 .conteudo-principal .ilustracao-da-intro{
    text-align: center;
 }
 
 .conteudo-principal .descricao{
+    text-align: center;
     margin: 0 auto;
-    width: 600px;
+    width: 680px;
+    margin-top: 60px;
 }
 
-.conteudo-principal .botao{
-    width: 73px;
-    margin: 0 auto;
+.conteudo-principal .descricao h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.conteudo-principal .descricao .texto{
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+
+.conteudo-principal .botao a{
+    padding: 20px 100px;
+    border-radius: 50px;
+    background-image: linear-gradient(to left, hsl(198, 60%, 50%) ,hsl(176, 68%, 64%));
+    font-size: 22px;
+}
+
+.background{
+    height: 449px;
+    background: url('../images/bg-curvy-desktop.svg') no-repeat; 
 }
 
 .conteudo-principal .vantagens{
+    padding-top: 220px;
+    row-gap: 100px;
+    padding-bottom: 200px;
+    background-color: hsl(218, 28%, 13%);
     display: grid;
     grid-template-areas: "icone1 icone2"
                          "icone3 icone4";
     text-align: center;
     align-items: center;
+    justify-content: space-evenly;
+}
+
+.vantagens img{
+    margin-bottom: 20px;
+}
+
+.vantagens .subtitulo{
+    margin-bottom: 8px;
+}
+
+.icone1, .icone2, 
+.icone3, .icone4{
+    width: 400px;
 }
 
 .imagem-secundaria{
+    background-color: hsl(218, 28%, 13%);
     display: flex;
     align-items: center; 
 }
@@ -44,6 +87,10 @@
 
 .imagem-secundaria .descricao{
     width: 500px;
+}
+
+.link{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .feedback{
