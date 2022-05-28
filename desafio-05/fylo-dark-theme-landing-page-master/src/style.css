@@ -194,18 +194,22 @@
     display: grid;
     grid-template-areas: "logo logo logo logo logo"
                         "localizacao contato sobre-nos contate-nos social";
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .rodape .localizacao{
     display: flex;
-    width: 300px;
+    width: 360px;
 }
 
 .logo{
+    margin-bottom: 30px;
     grid-area: logo;
 }
 
 .localizacao{
+    gap: 20px;
     grid-area: localizacao;
 }
 
@@ -213,12 +217,26 @@
     grid-area: contato;
 }
 
+.contato .icone{
+    gap: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .sobre-nos{
     grid-area: sobre-nos;
 }
 
+.sobre-nos ul a{
+    line-height: 40px;
+}
+
 .contate-nos{
     grid-area: contate-nos;
+}
+
+.contate-nos ul a{
+    line-height: 40px;
 }
 
 .social{
