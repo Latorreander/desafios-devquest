@@ -25,10 +25,6 @@
   text-align: center;
 }
 
-.conteudo-principal img{
-  width: 100%;
-}
-
 .conteudo-principal .descricao1 {
   text-align: center;
   margin: 0 auto;
@@ -144,12 +140,12 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-  position: relative;
 }
 
 .feedback .comentario {
   max-width: 400px;
   padding: 30px;
+  position: relative;
 }
 
 .feedback .comentario p {
@@ -162,7 +158,7 @@
   width: 55px;
   height: 45px;
   top: -30px;
-  left: 60px;
+  left: -10px;
 }
 
 .comentario {
@@ -210,12 +206,16 @@
 .email input {
   padding: 15px;
   border-radius: 30px;
-  min-width: 500px;
+  max-width: 500px;
 }
 
 .email .botao:hover {
   background: lightskyblue;
   transition: 0.3s;
+}
+
+.email .input-e-botao{
+  min-width: 300px;
 }
 
 .email .input {
@@ -230,7 +230,7 @@
   );
   padding: 15px;
   border-radius: 30px;
-  min-width: 200px;
+  max-width: 250px;
   margin-left: 20px;
   cursor: pointer;
 }

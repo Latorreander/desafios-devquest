@@ -70,14 +70,39 @@
         margin-left: 15px;
     }
 
-
+    .conteudo-principal .ilustracao-da-intro img{
+        width: 100%;
+    }
     .conteudo-principal .imagem-principal .descricao1 h2{
         font-size: 25px;
         line-height: 40px;
     }
 
-    .imagem-principal, .vantagens, .imagem-secundaria{
-        padding: 30px;
+     .imagem-secundaria .descricao2 h2{
+        font-size: 20px;
+        margin-top: 50px;
+        
     }
 
+    .imagem-principal, .vantagens, .imagem-secundaria, .feedback{
+        padding: 50px;
+    }
+
+   .feedback .comentario{
+       margin-top: 50px;
+   } 
+
+   .email .texto{
+       padding: 20px;
+   }
+
+   .email{
+      width: 350px;
+      padding: 0 0 30px;
+     
+   }
+
+   .email input, button{
+       min-width: 250px;
+   }
 }
