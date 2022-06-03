@@ -106,3 +106,16 @@
        min-width: 250px;
    }
 }
+
+@media(max-width: 376px){
+
+   .imagem-principal .descricao1 .botao {
+       width: 300px; 
+   } 
+
+   .imagem-principal .descricao1 .botao a{
+       padding: 20px 90px;
+       font-size: 15px;
+    
+   }
+}
