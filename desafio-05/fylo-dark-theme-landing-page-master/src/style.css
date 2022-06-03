@@ -1,250 +1,316 @@
-.container-cabecalho{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
+.container-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+  align-items: center;
 }
 
-.menu ul{
-    display: flex;
+.menu ul {
+  display: flex;
 }
 
-.menu ul  a{
-    margin-left: 30px;
+.menu ul a {
+  margin-left: 50px;
 }
 
-.conteudo-principal .imagem-principal{
-    background: url(../images/bg-curvy-desktop.svg) bottom no-repeat;
+.menu ul a:hover {
+  text-decoration: underline;
 }
 
-.conteudo-principal .ilustracao-da-intro{
-   text-align: center;
+.conteudo-principal .imagem-principal {
+  background: url(../images/bg-curvy-desktop.svg) bottom no-repeat;
 }
 
-.conteudo-principal .descricao1{
-    text-align: center;
-    margin: 0 auto;
-    width: 680px;
-    margin-top: 60px;
+.conteudo-principal .ilustracao-da-intro {
+  text-align: center;
 }
 
-.conteudo-principal .descricao1 h2{
-    font-size: 40px;
-    margin-bottom: 50px;
+.conteudo-principal img{
+  width: 100%;
 }
 
-.conteudo-principal .descricao1 .texto{
-    font-size: 22px;
-    margin-bottom: 60px;
+.conteudo-principal .descricao1 {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 680px;
+  margin-top: 60px;
 }
 
-.conteudo-principal .botao a{
-    padding: 20px 100px;
-    border-radius: 50px;
-    background-image: linear-gradient(to left, hsl(198, 60%, 50%) ,hsl(176, 68%, 64%));
-    font-size: 22px;
+.conteudo-principal .descricao1 h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
 }
 
-.conteudo-principal .vantagens{
-    padding-top: 220px;
-    row-gap: 100px;
-    padding-bottom: 120px;
-    background-color: hsl(218, 28%, 13%);
-    display: grid;
-    grid-template-areas: "icone1 icone2"
-                         "icone3 icone4";
-    text-align: center;
-    align-items: center;
-    justify-content: space-evenly;
+.conteudo-principal .descricao1 .texto {
+  font-size: 22px;
+  margin-bottom: 60px;
 }
 
-.vantagens img{
-    margin-bottom: 30px;
+.conteudo-principal .botao a {
+  padding: 20px 100px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to left,
+    hsl(198, 60%, 50%),
+    hsl(176, 68%, 64%)
+  );
+  font-size: 22px;
 }
 
-.vantagens .subtitulo{
-    margin-bottom: 8px;
+.conteudo-principal .botao a:hover {
+  background: lightskyblue;
 }
 
-.vantagens p{
-    font-size: 15px;
-    line-height: 25px;
+.vantagens {
+  padding-top: 220px;
+  row-gap: 100px;
+  padding-bottom: 120px;
+  background-color: hsl(218, 28%, 13%);
+  display: grid;
+  grid-template-areas:
+    "icone1 icone2"
+    "icone3 icone4";
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.icone1, .icone2, 
-.icone3, .icone4{
-    width: 400px;
+.vantagens img {
+  margin-bottom: 30px;
 }
 
-.imagem-secundaria{
-    background-color: hsl(218, 28%, 13%);
-    display: flex;
-    align-items: center;
-    padding-bottom: 200px;
-} 
+.vantagens .subtitulo {
+  margin-bottom: 8px;
+}
 
-.imagem-secundaria .mantenha-se-produtivo{
-    margin: 0 auto;
+.vantagens p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.icone1,
+.icone2,
+.icone3,
+.icone4 {
+  max-width: 400px;
+}
+
+.imagem-secundaria {
+  background-color: hsl(218, 28%, 13%);
+  display: flex;
+  align-items: center;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.imagem-secundaria .mantenha-se-produtivo {
+  margin: 0 auto;
+}
+
+.imagem-secundaria .mantenha-se-produtivo img{
+  width: 100%;
 }
 
 .imagem-secundaria .descricao2 {
-    width: 520px;
-    margin: 0 auto;
+  width: 520px;
+  margin: 0 auto;
 }
 
-.imagem-secundaria .descricao2 h2{
-    font-size: 40px;
-    margin-bottom: 20px;
+.imagem-secundaria .descricao2 h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.imagem-secundaria .descricao2 p{
-    font-size: 14px;
+.imagem-secundaria .descricao2 p {
+  font-size: 14px;
 }
 
-.imagem-secundaria .descricao2 .link{
-    margin-top: 20px;
-      
+.imagem-secundaria .descricao2 .link {
+  margin-top: 20px;
 }
 
-.imagem-secundaria .descricao2 .link a{
-    padding: 5px;
-    color: cadetblue;
-    border-bottom: solid 1px;
+.imagem-secundaria .descricao2 .link a {
+  padding: 5px;
+  color: cadetblue;
+  border-bottom: solid 1px;
 }
 
-.feedback{
-    display: flex;
-    position: relative; 
-    justify-content: center;
+.imagem-secundaria .descricao2 .link a:hover{
+    color: #fff;
 }
 
-.feedback .comentario{
-    width: 400px;
-    margin-right: 30px;
-    padding: 30px;
-    position: relative;
+.feedback {
+  background-color: hsl(218, 28%, 13%);
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
 }
 
-.feedback .comentario p{
-    margin-bottom: 20px;
+.feedback .comentario {
+  max-width: 400px;
+  padding: 30px;
 }
 
-.aspas{
-    position: absolute;
-    left: -40px;
-    top: -20px;
+.feedback .comentario p {
+  margin-bottom: 20px;
 }
 
-.feedback .usuario{
-    display: flex;
-    gap: 10px;
+.aspas {
+  background: url(../images/bg-quotes.png) center center no-repeat;
+  position: absolute;
+  width: 55px;
+  height: 45px;
+  top: -30px;
+  left: 60px;
 }
 
-.feedback .usuario ul li{
-   line-height: 22px;
+.comentario {
+  box-shadow: hsl(217, 28%, 15%) 5px 5px, hsl(217, 28%, 15%) 10px 10px;
 }
 
-.feedback .usuario .cargo{
-    font-size: 12px;
+.feedback .usuario {
+  display: flex;
+  gap: 10px;
 }
 
-.feedback .comentario .usuario .foto-usuario{
-    width: 40px;
-    border-radius: 100%;
+.feedback .usuario ul li {
+  line-height: 22px;
 }
 
-.email{
-    position: relative;
-    background-color: hsl(217, 28%, 15%);;
-    text-align: center;
-    width: 900px;
-    margin: 300px auto;
-    padding: 30px 60px; 
-    margin-bottom: -120px;
+.feedback .usuario .cargo {
+  font-size: 12px;
 }
 
-.email .texto h2{
-    font-size: 40px;
-    margin-bottom: 20px;
+.feedback .comentario .usuario .foto-usuario {
+  width: 40px;
+  border-radius: 100%;
 }
 
-.email .texto p{
-    max-width: 780px;
+.email {
+  box-shadow: hsl(218, 28%, 13%) 5px 5px, hsl(218, 28%, 13%) 10px 10px;
+  position: relative;
+  background-color: hsl(217, 28%, 15%);
+  text-align: center;
+  max-width: 900px;
+  margin: 300px auto;
+  padding: 30px 60px;
+  margin-bottom: -130px;
 }
 
-.email input{
-    padding: 15px;
-    border-radius: 30px;
-    width: 500px; 
+.email .texto h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.email .input{
-    padding: 20px;
+.email .texto p {
+  max-width: 780px;
 }
 
-.email button{
-    background-image: linear-gradient(to left, hsl(198, 60%, 50%) ,hsl(176, 68%, 64%));
-    padding: 15px;
-    border-radius: 30px;
-    width: 200px;
-    margin-left: 20px;
+.email input {
+  padding: 15px;
+  border-radius: 30px;
+  min-width: 500px;
 }
 
-.rodape{
-    padding: 190px 100px;
-    display: grid;
-    grid-template-areas: "logo logo logo logo logo"
-                        "localizacao contato sobre-nos contate-nos social";
-    justify-content: space-between;
-    align-items: baseline;
+.email .botao:hover {
+  background: lightskyblue;
+  transition: 0.3s;
 }
 
-.rodape .localizacao{
-    display: flex;
-    width: 360px;
+.email .input {
+  padding: 20px;
 }
 
-.logo{
-    margin-bottom: 30px;
-    grid-area: logo;
+.email .botao {
+  background-image: linear-gradient(
+    to left,
+    hsl(198, 60%, 50%),
+    hsl(176, 68%, 64%)
+  );
+  padding: 15px;
+  border-radius: 30px;
+  min-width: 200px;
+  margin-left: 20px;
+  cursor: pointer;
 }
 
-.localizacao{
-    gap: 20px;
-    grid-area: localizacao;
+.rodape {
+  padding: 190px 100px;
+  display: grid;
+  grid-template-areas:
+    "logo logo logo logo logo"
+    "localizacao contato sobre-nos contate-nos social";
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.contato{
-    grid-area: contato;
+.rodape .localizacao {
+  display: flex;
+  max-width: 360px;
 }
 
-.contato .icone{
-    gap: 20px;
-    display: flex;
-    margin-bottom: 20px;
+.logo {
+  margin-bottom: 30px;
+  grid-area: logo;
 }
 
-.sobre-nos{
-    grid-area: sobre-nos;
+.localizacao {
+  gap: 20px;
+  grid-area: localizacao;
 }
 
-.sobre-nos ul a{
-    line-height: 40px;
+.contato {
+  grid-area: contato;
 }
 
-.contate-nos{
-    grid-area: contate-nos;
+.contato .icone {
+  gap: 20px;
+  display: flex;
+  margin-bottom: 20px;
 }
 
-.contate-nos ul a{
-    line-height: 40px;
+.sobre-nos {
+  grid-area: sobre-nos;
 }
 
-.social{
-    display: flex;
-    grid-area: social;
+.sobre-nos a:hover {
+  font-weight: 700;
 }
 
+.sobre-nos ul a {
+  line-height: 40px;
+}
 
+.contate-nos {
+  grid-area: contate-nos;
+}
 
+.contate-nos a:hover {
+  font-weight: 700;
+}
 
+.contate-nos ul a {
+  line-height: 40px;
+}
 
+.social {
+  display: flex;
+  grid-area: social;
+  gap: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.social a {
+  border: solid 1px #ffff;
+  padding: 8px;
+  border-radius: 100%;
+  width: 47px;
+}
+
+.social a:hover {
+  border: solid 1px cadetblue;
+  color: cadetblue;
+  transition: 0.3s;
+}

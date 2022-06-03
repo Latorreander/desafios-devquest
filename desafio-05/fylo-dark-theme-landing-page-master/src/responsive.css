@@ -1,1 +1,83 @@
 
+@media(max-width: 1235px){
+    .rodape{
+        grid-template-areas: 'logo logo'
+                                'localizacao localizacao' 
+                                'contato contato' 
+                                'sobre-nos sobre-nos' 
+                                'contate-nos contate-nos'
+                                'social social'
+}
+
+.rodape .localizacao, .sobre-nos, .contate-nos{
+    margin-bottom: 30px;
+}
+
+.rodape .social{
+    justify-content: center;
+  
+}
+
+}
+
+@media(max-width: 1050px){
+    .vantagens{
+        grid-template-areas: 'icone1'
+                            'icone2'
+                            'icone3'
+                            'icone4';
+    }
+    
+    .email input{
+        margin-bottom: 20px;
+    }
+
+    .email .botao{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .imagem-secundaria{
+        flex-wrap: wrap;
+    }
+
+    .feedback{
+        flex-wrap: wrap;
+    }
+
+    .email{
+        max-width: 700px
+
+    }
+}
+
+@media(max-width: 426px){
+
+    .container-cabecalho .logo{
+        margin: 0;
+    }
+    .container-cabecalho img{
+        width: 110px;
+        
+    }
+
+    .container-cabecalho{
+        padding: 25px 30px;
+    }
+
+    .container-cabecalho .menu a{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+
+    .conteudo-principal .imagem-principal .descricao1 h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .imagem-principal, .vantagens, .imagem-secundaria{
+        padding: 30px;
+    }
+
+}

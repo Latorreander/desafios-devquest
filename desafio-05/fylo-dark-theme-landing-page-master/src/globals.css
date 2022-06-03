@@ -1,6 +1,6 @@
 
 .container{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -16,9 +16,13 @@ h2, p, a, li, button{
     color: hsl(0, 0%, 100%);
 }
 
+.container{
+    background-color: hsl(218, 28%, 13%);
+}
+
 main{
-    background-color:   hsl(217, 28%, 13%);
-    
+    background-color:  hsl(217, 28%, 15%); 
+  
 } 
 
 .container-cabecalho{
