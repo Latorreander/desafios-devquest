@@ -1,146 +1,145 @@
+@media (max-width: 1235px) {
+  .rodape {
+    grid-template-areas:
+      "logo logo"
+      "localizacao localizacao"
+      "contato contato"
+      "sobre-nos sobre-nos"
+      "contate-nos contate-nos"
+      "social social";
+  }
 
-@media(max-width: 1235px){
-    .rodape{
-        grid-template-areas: 'logo logo'
-                                'localizacao localizacao' 
-                                'contato contato' 
-                                'sobre-nos sobre-nos' 
-                                'contate-nos contate-nos'
-                                'social social'
-}
-
-.rodape .localizacao, .sobre-nos, .contate-nos{
+  .rodape .localizacao,
+  .sobre-nos,
+  .contate-nos {
     margin-bottom: 30px;
-}
+  }
 
-.rodape .social{
+  .rodape .social {
     justify-content: center;
-  
+  }
 }
 
+@media (max-width: 1050px) {
+  .vantagens {
+    grid-template-areas:
+      "icone1"
+      "icone2"
+      "icone3"
+      "icone4";
+  }
+
+  .email input {
+    margin-bottom: 20px;
+  }
+
+  .email .botao {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .imagem-secundaria {
+    flex-wrap: wrap;
+  }
+
+  .feedback {
+    flex-wrap: wrap;
+  }
+
+  .email {
+    max-width: 700px;
+  }
 }
 
-@media(max-width: 1050px){
-    .vantagens{
-        grid-template-areas: 'icone1'
-                            'icone2'
-                            'icone3'
-                            'icone4';
-    }
-    
-    .email input{
-        margin-bottom: 20px;
-    }
+@media (max-width: 426px) {
+  .container-cabecalho .logo {
+    margin: 0;
+  }
+  .container-cabecalho img {
+    width: 110px;
+  }
 
-    .email .botao{
-        width: 500px;
-        margin: 0 auto;
-    }
+  .container-cabecalho {
+    padding: 25px 30px;
+  }
 
-    .imagem-secundaria{
-        flex-wrap: wrap;
-    }
+  .container-cabecalho .menu a {
+    font-size: 12px;
+    margin-left: 15px;
+  }
 
-    .feedback{
-        flex-wrap: wrap;
-    }
+  .conteudo-principal .ilustracao-da-intro img {
+    width: 100%;
+  }
+  .conteudo-principal .imagem-principal .descricao1 h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
 
-    .email{
-        max-width: 700px
+  .imagem-principal .descricao1 .botao {
+    width: 260px;
 
-    }
+  }
+
+  .imagem-principal .descricao1 .botao a {
+    padding: 20px 90px;
+    font-size: 15px;
+  }
+
+  .conteudo-principal .imagem-principal .descricao1 .texto {
+    font-size: 16px;
+  }
+
+  .imagem-secundaria .descricao2 h2 {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .imagem-principal,
+  .vantagens,
+  .imagem-secundaria,
+  .feedback {
+    padding: 50px;
+  }
+
+  .feedback .comentario {
+    margin-top: 50px;
+  }
+
+  .email .texto {
+    padding: 20px;
+  }
+
+  .email {
+    width: 320px;
+    padding: 0 0 30px;
+    margin-top: 50px;
+  }
+
+  .email .texto h2 {
+    font-size: 25px;
+  }
+
+  .email .texto p {
+    font-size: 16px;
+  }
+
+  .email input,
+  button {
+    min-width: 250px;
+  }
+
+
+  .rodape {
+    padding: 240px 30px;
+  }
+
+  .rodape .contato {
+    margin-bottom: 60px;
+  }
+
+  .rodape .contate-nos {
+    margin-bottom: 120px;
+  }
 }
 
-@media(max-width: 426px){
-
-    .container-cabecalho .logo{
-        margin: 0;
-    }
-    .container-cabecalho img{
-        width: 110px;
-        
-    }
-
-    .container-cabecalho{
-        padding: 25px 30px;
-    }
-
-    .container-cabecalho .menu a{
-        font-size: 12px;
-        margin-left: 15px;
-    }
-
-    .conteudo-principal .ilustracao-da-intro img{
-        width: 100%;
-    }
-    .conteudo-principal .imagem-principal .descricao1 h2{
-        font-size: 25px;
-        line-height: 40px;
-    }
-
-    .conteudo-principal .imagem-principal .descricao1 .texto{
-        font-size: 16px;
-
-    }
-
-     .imagem-secundaria .descricao2 h2{
-        font-size: 20px;
-        margin-top: 50px;
-        
-    }
-
-    .imagem-principal, .vantagens, .imagem-secundaria, .feedback{
-        padding: 50px;
-    }
-
-   .feedback .comentario{
-       margin-top: 50px;
-   } 
-
-   .email .texto{
-       padding: 20px;
-   }
-
-   .email{
-      width: 320px;
-      padding: 0 0 30px;
-      margin-top: 50px;
-   }
-
-   .email .texto h2{
-       font-size: 25px;
-   }
-
-   .email .texto p{
-       font-size: 16px;
-   }
-
-   .email input, button{
-       min-width: 250px;
-   }
-}
-
-@media(max-width: 376px){
-
-    .imagem-principal .descricao1 .botao{
-        width: 260px;
-    }
-
-   .imagem-principal .descricao1 .botao a{
-       padding: 20px 90px;
-       font-size: 15px;
-    
-   }
-
-   .rodape{
-       padding: 240px 30px;
-   }
-
-   .rodape .contato{
-       margin-bottom: 60px;
-   }
-
-   .rodape .contate-nos{
-       margin-bottom: 120px;
-   }
-}
