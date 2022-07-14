@@ -32,10 +32,6 @@ function mostrarImagem() {
   imagens[imagemAtual].classList.add("mostrar");
 }
 
-function mostrarImagem() {
-  imagens[imagemAtual].classList.add("mostrar");
-}
-
 function esconderImagemAberta() {
   const imagemAberta = document.querySelector(".mostrar");
   imagemAberta.classList.remove("mostrar");
