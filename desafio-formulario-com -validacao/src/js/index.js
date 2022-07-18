@@ -1,9 +1,9 @@
 function validar() {
-  const campoFormulario = document.querySelectorAll("input");
-  campoFormulario.forEach(function (input) {
-    if (input.value == "") {
-      input.nextElementSibling.classList.add("ativo");
-      input.classList.add("nao-preenchido");
-    } else input.classList.add("preenchido");
+  const campoFormulario = document.querySelectorAll(".area");
+  campoFormulario.forEach(function (area) {
+      if (area.value == "") {
+        area.nextElementSibling.classList.add("ativo")
+        area.classList.add("nao-preenchido") 
+      } else area.classList.add("preenchido")
   });
 }

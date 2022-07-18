@@ -78,11 +78,11 @@ main{
 
 
 input.preenchido { 
-    border: solid #00C22B 1px;
+    border: solid #00C22B 2px;
     
 }
 
 input.nao-preenchido { 
     border: solid #F52E2E
-    1px;
+    2px;
 }
