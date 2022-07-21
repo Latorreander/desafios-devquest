@@ -77,12 +77,12 @@ main{
 }
 
 
-input.preenchido { 
+.area.preenchido { 
     border: solid #00C22B 2px;
     
 }
 
-input.nao-preenchido { 
+.area.nao-preenchido { 
     border: solid #F52E2E
     2px;
 }
