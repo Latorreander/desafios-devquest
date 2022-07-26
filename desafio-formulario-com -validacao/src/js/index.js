@@ -6,7 +6,7 @@
     campoFormulario.forEach(function (area) {
         if (area.value == "") {
           area.nextElementSibling.classList.add("ativo")
-          area.classList.add("nao-preenchido") 
+          area.classList.add("nao-preenchido")
         } else area.classList.add("preenchido") 
     });
   })
