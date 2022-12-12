@@ -1,12 +1,10 @@
 
-const message = ()=>{
-   
-    alert('A Label desse botão é:',)
-}
+
 
 const Button = ({label}) =>{
-    return <button onClick={message}>{label}</button>
+    return <button onClick={() => alert(`A label desse botão é:  ${label}`)}>{label}</button>
 }
+
 
 export default Button
 
