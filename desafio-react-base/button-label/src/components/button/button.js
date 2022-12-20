@@ -1,8 +1,9 @@
 
-const Button = ({label}) =>{
-    return <button onClick={() => alert(`A label desse botão é:  ${label}`)}>{label}</button>
-}
+const Button = ({label}) => <button
 
+                                onClick={() => alert(`A label desse botão é:  ${label}`)}>{label}
 
-export default Button
+                            </button>
+
+export  {Button}
 

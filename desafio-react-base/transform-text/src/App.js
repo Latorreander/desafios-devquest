@@ -1,5 +1,5 @@
 
-import ColoredText from './components/texttransform/textelement'
+import {ColoredText} from './components/texttransform/textelement'
 import './App.css';
 
 function App() {
