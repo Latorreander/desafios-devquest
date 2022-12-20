@@ -1,10 +1,7 @@
 
-const Text = ({paragraph}) =>{
-    return (
-       <div>
-        <p style={{color:'green'}}>{paragraph.toUpperCase()}</p>
-       </div> 
-    )
-}
+const ColoredText = ({textColor, children}) =>
 
-export default Text
+    <p style={{color: textColor}}>{children.toUpperCase()}</p>
+
+
+export default ColoredText
